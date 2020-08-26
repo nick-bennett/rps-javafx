@@ -1,0 +1,44 @@
+VBox {
+  -fx-padding: 10px;
+}
+
+HBox {
+  -fx-spacing: 10px;
+  -fx-padding: 0 0 10px 0;
+  -fx-alignment: center-left;
+}
+
+Pane {
+  -fx-background-color: black;
+  -fx-min-width: 400px;
+  -fx-min-height: 400px;
+  -fx-pref-width: 720px;
+  -fx-pref-height: 720px;
+}
+
+Label {
+  -fx-font-size: 12pt;
+  -fx-font-weight: bold;
+}
+
+Button, ToggleButton {
+  -fx-min-width: 25px;
+  -fx-min-height: 25px;
+  -fx-pref-width: 25px;
+  -fx-pref-height: 25px;
+  -fx-background-position: center center;
+  -fx-background-size: auto 65%;
+  -fx-background-repeat: no-repeat;
+}
+
+Button#reset {
+  -fx-background-image: url('../images/reset.png');
+}
+
+ToggleButton#toggleRun {
+  -fx-background-image: url('../images/play.png');
+}
+
+ToggleButton#toggleRun:selected {
+  -fx-background-image: url('../images/pause.png');
+}
