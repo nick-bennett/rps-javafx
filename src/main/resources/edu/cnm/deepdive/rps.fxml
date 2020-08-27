@@ -8,11 +8,12 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 
+<?import edu.cnm.deepdive.view.TerrainView?>
 <VBox
   xmlns="http://javafx.com/javafx"
   xmlns:fx="http://javafx.com/fxml"
   fx:controller="edu.cnm.deepdive.controller.RpsController"
-  stylesheets="../styles/styles.css">
+  stylesheets="@styles.css">
 
   <HBox>
 
@@ -45,10 +46,8 @@
 
   <Pane>
 
-<!--
     <TerrainView
       fx:id="terrainView"/>
--->
 
   </Pane>
 

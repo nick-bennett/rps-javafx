@@ -12,8 +12,8 @@ Pane {
   -fx-background-color: black;
   -fx-min-width: 400px;
   -fx-min-height: 400px;
-  -fx-pref-width: 720px;
-  -fx-pref-height: 720px;
+  -fx-pref-width: 640px;
+  -fx-pref-height: 640px;
 }
 
 Label {
@@ -32,13 +32,13 @@ Button, ToggleButton {
 }
 
 Button#reset {
-  -fx-background-image: url('../images/reset.png');
+  -fx-background-image: url('reset.png');
 }
 
 ToggleButton#toggleRun {
-  -fx-background-image: url('../images/play.png');
+  -fx-background-image: url('play.png');
 }
 
 ToggleButton#toggleRun:selected {
-  -fx-background-image: url('../images/pause.png');
+  -fx-background-image: url('pause.png');
 }
